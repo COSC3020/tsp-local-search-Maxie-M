@@ -50,3 +50,23 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+## Runtime Analysis, Maxie, M.
+### Worst-Case Asymptotic Time Complexity: 
+- **Worst-Case Time Complexity:** $O(M \times n)$
+  - $M$ is the maximum number of iterations
+  -  $n$ is the number of cities
+     - **Calculating Total Route Length:** $O(n)$
+     - **Performing a 2-opt Swap:** $O(n)$
+        - due to reversing a segment of the route
+    - Operations repeated up to $M$ iterations 
+### Worst-Case Asymptotic Memory Complexity: 
+- **Worst-Case Memory Complexity:** $O(n)$
+  - $n$ is the number of cities
+    - **Storing Current Route:** $O(n)$ *space*
+    - **Storing Temporary Route for Comparisons:** $O(n) *space*
+    - lack of additional memory-intensive data structures 
+### Plagiarism Statement: 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+### Resources:
+- https://dm865.github.io/assets/dm865-tsp-ls-handout.pdf
