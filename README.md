@@ -54,11 +54,11 @@ reasoning, to this markdown file.
 ## Runtime Analysis, Maxie, M.
 ### Worst-Case Asymptotic Time Complexity: 
 - **Worst-Case Time Complexity:** $O(M \times n)$
-  -  $M$ is the maximum number of iterations
+  - $M$ is the maximum number of iterations
   -  $n$ is the number of cities
-    - **Calculating Total Route Length:** $O(n)$
-    - **Performing a 2-opt Swap:** $O(n)$
-      - due to reversing a segment of the route
+     - **Calculating Total Route Length:** $O(n)$
+     - **Performing a 2-opt Swap:** $O(n)$
+        - due to reversing a segment of the route
     - Operations repeated up to $M$ iterations 
 ### Worst-Case Asymptotic Memory Complexity: 
 - **Worst-Case Memory Complexity:** $O(n)$
