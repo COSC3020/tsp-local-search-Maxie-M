@@ -63,7 +63,7 @@ reasoning, to this markdown file.
 ### Worst-Case Asymptotic Memory Complexity: 
 - **Worst-Case Memory Complexity:** $O(n)$
   - $n$ is the number of cities
-    - **Storing Current Route for Comparisons:** $O(n)$ **space*
+    - **Storing Current Route:** $O(n)$ **space*
     - **Storing Temporary Route for Comparisons:** $O(n) **space*
     - lack of additional memory-intensive data structures 
 ### Plagiarism Statement: 
