@@ -9,7 +9,7 @@ function tsp_ls(distance_matrix) {
         let len = 0;
 
         for (let i = 0; i < route.length - 1; i++) {
-            length += distance_matrix[route[i]][route[i + 1]];
+            len += distance_matrix[route[i]][route[i + 1]];
         }
         return len;
     }
